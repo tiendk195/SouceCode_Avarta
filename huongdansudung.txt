@@ -1,0 +1,20 @@
+﻿- Config tại: /incfiles/Config_bylt_2020/@@config@@@.php
+
+- Up data lên, xong vào cms_setting. Chỉnh Domain http://thitran9x thành http://domaincuaban
+
+- Nếu muốn bật firewall thì :
++ Vào /incfiles/head.php.
+//require("firewall/dqh-firewall.php");
+
+Bỏ dấu "//" đi là xong.
++ Tiếp tục vào /incfiles/firewall/dqh-firewall.php
+Chỉnh domain của bạn vào.
+
+- Vào /cron/resetnvhn.php điền thông số của bạn vào nhé.
+
+- Nhớ chạy cron file /cron/resetnvhn.php nhé. Vì để reset nhiệm vụ hằng ngày
+
+Cần hỗ trợ gì xin liên hệ fb.com/lethinhpro123
+/// tk admin
+lethinhpro123
+thinh123

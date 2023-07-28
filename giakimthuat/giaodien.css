@@ -1,0 +1,120 @@
+.vienho1 {
+    background: url(img/vienho1.png) repeat-x;
+    height: 15px;
+    margin: auto;
+}
+.vienho {
+    background: url(img/ho.png) repeat;
+    height: 75px;
+    margin: auto;
+}
+    .bautroi {
+    background: url(https://i.imgur.com/bqE3cex.png) repeat;
+    height: 48px;
+    width: 100%;
+}
+.nuida {
+    background: url(https://i.imgur.com/JGCdVNf.png) repeat-x;
+    height: 82px;
+    width: 100%;
+}
+.nennui {
+    background: url(https://i.imgur.com/ObGsSPF.png) repeat-x;
+    height: 28px;
+    width: 100%;
+}
+.vienda {
+    background: url(https://i.imgur.com/Sjh0gq1.png) repeat-x;
+    height: 18px;
+    width: 100%;
+}
+.nenco {
+    background: url(https://i.imgur.com/jp9yLfs.png) repeat;
+    height: 80px;
+    width: 100%;
+}
+.dat {
+    background: url(https://i.imgur.com/0uBRAUn.png) repeat;
+    padding: 6px;
+    margin: auto;
+}
+.honuoc {
+    background: url(https://i.imgur.com/I6BSe7n.png) repeat-x;
+    height: 21px;
+    margin: auto;
+}
+.honuoc1 {
+    background: url(https://i.imgur.com/tuK9w1j.png) repeat-x;
+    height: 15px;
+    margin: auto;
+}
+.nenhd {
+    margin: 0px 0px;
+    background: url(img/nenhd.png);
+    padding: 0px;
+}
+.vachdahd {
+    background: url(https://i.imgur.com/tGXAg1R.png) repeat-x;
+    height: 70px;
+    margin: auto;
+}
+.dat2hd {
+    background: url(https://i.imgur.com/iE0MzkE.png) repeat;
+    height: 35px;
+    margin: auto;
+}
+.dathd {
+    background: url(https://i.imgur.com/4Wh11Je.png) repeat;
+    height: 55px;
+    margin: auto;
+}
+.phongcanhhd {
+    background: url(https://i.imgur.com/NRUH8Ri.png) repeat-x;
+    height: 88px;
+    margin: auto;
+}
+.nuoc {
+    margin: 10px 0px;
+    background: url(img/nuoc.png);
+    padding: 0px;
+}
+.vienho4 {
+    background: url(img/vienho4.png) repeat;
+    height: 5px;
+    margin: auto;
+}
+.vienho2 {
+    background: url(img/vienho2.png) repeat-x;
+    height: 60px;
+    margin: auto;
+}
+.viensamac{
+background: url('img/viensamac.png') repeat;
+height: 55px;
+margin: auto;
+}
+.nensamac{
+margin: 10px 0px;
+background: url('img/nensamac.png') repeat-x; 
+padding: 0px;
+}
+.buicosm{
+margin: 10px 0px;
+background: url('img/buicosm.png') repeat-x; 
+padding: 0px;
+}
+.nensamac1{
+margin: 10px 0px;
+background: url('img/nensamac1.png'); 
+padding: 0px;
+}
+.nensamac2{
+margin: 10px 0px;
+background: url('img/nensamac2.png'); 
+padding: 0px;
+}
+.tuonghd{
+background: url('img/vienhd.png') repeat;
+height: 55px;
+margin: auto;
+}

@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+RewriteRule .* - [F]
+
+RewriteRule ^bangxephang$ bangxephang.php [L]
+RewriteRule ^bangxephang/$ bangxephang.php [L]
+RewriteRule ^bangxephang/page/([0-9]*+)$ bangxephang.php?page=$1 [L]
+RewriteRule ^bangxephang/page/([0-9]*+)/$ bangxephang.php?page=$1 [L]

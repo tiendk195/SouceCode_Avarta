@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+RewriteRule .* - [F]
+RewriteRule ^shopbian.html$ shopbian.php [L]
+RewriteRule ^ketsat.html$ ketsat.php [L]
+
+RewriteRule ^gioithieu.html$ shopgioithieu.php [L]
+RewriteRule ^chemgio.html$ shopchemgio.php [L]
+RewriteRule ^xeng.html$ doixeng.php [L]
+RewriteRule ^muastatus.html$ status.php [L]
+
+RewriteRule ^muachuki.html$ chuki.php [L]
+RewriteRule ^thantai.html$ ruongthantai.php [L]
+RewriteRule ^doiten.html$ doiten.php [L]
+RewriteRule ^magioithieu.html$ gioithieu.php [L]
+RewriteRule ^maunick.html$ maunick.php [L]
+RewriteRule ^vongquaymayman.html$ vqmm.php [L]
+RewriteRule ^qua-online.html$ quaol.php [L]
+
+RewriteRule ^topvip.html$ topvip.php [L]
+RewriteRule ^bangxephang.html$ bxh.php [L]

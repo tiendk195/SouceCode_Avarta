@@ -1,0 +1,1 @@
+<div class="list4">- Hiện tại phiên bản chưa hỗ trợ cho giao diện yếu, hoặc ucweb, nếu bạn đang sử dụng opera thì hãy vào nông trại chuyển qua giao diện nét cao để sử dụng <a href="/nongtrai/?act=1">Nông trại</a></div>

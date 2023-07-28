@@ -1,0 +1,67 @@
+.nencat {
+	background: url('images/nencat.png');
+	max-width: 100%;
+	margin: auto;
+	min-height: 100px;
+	border-bottom: 0px;
+	text-align: center
+}
+.bien {
+	background: url('images/bien.png');
+	max-width: 100%;
+	margin: auto;
+	min-height: 100px
+}
+.vaoshop {
+	background: url('images/fashion.png') no-repeat bottom center;
+	padding-top: 85px;
+	text-align: center
+}
+.topic_qt {
+	float: left;
+	width: 100%;
+	line-height: 15px;
+	background-color: #EEE;
+	border-bottom: 1px #C1C1C1 solid
+}
+.topic_name_qt {
+	float: left;
+	width: 100%;
+	padding: 5px 0px;
+	padding-left: 15px
+}
+box_name_qt {
+	font-size: 11px;
+	color: #666
+}
+.box_pc {
+	float: left;
+	width: 100%;
+	color: #FFF;
+	background-color: #3883CC;
+	height: 5px
+}
+.box_thong_ke {
+	float: left;
+	width: 100%;
+	border-bottom: 3px solid #246896
+}
+.box_cm {
+	float: left;
+	width: 100%;
+	line-height: 15px;
+	background-color: #D8E4ED;
+	border-bottom: 1px #C1C1C1 solid
+}
+.topic_name_cm {
+	float: left;
+	width: 100%;
+	padding: 5px 0px;
+	padding-left: 15px
+}
+.box_topsss {
+	float: left;
+	width: 100%;
+	color: #FFF;
+	background-color: #3883CC
+}

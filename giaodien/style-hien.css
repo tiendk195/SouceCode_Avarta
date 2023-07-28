@@ -1,0 +1,586 @@
+input[type="noidung"], textarea {
+    border-radius: 3px;
+    border: 1px solid #3883CC;
+    color: #3883CC;
+    padding: 2px;
+    max-width: 590px;
+}
+
+.pmenu1 {
+    background-color: #EAF6FC;
+    border-radius: 5px;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+    margin: 3px 0;
+    padding: 10px;
+    width: 2678px;
+}
+
+
+.pmenu2 {
+    background-color: #EAF6FC;
+    border-radius: 5px;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+    margin: 3px 0;
+    padding: 1px;
+}
+
+#test {
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+}
+.kevach {
+    color: #444;
+    background-color: #EAF6FC;
+    padding: 8px 8px;
+    border-bottom: 1px solid #b3e179;
+}
+.gd_npc {
+        border: 2px solid #FE2E2E;
+    background-color: #F6CECE;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gd_ruong_1 {
+    border: 1px solid #A9E2F3;
+    background-color: #A9E2F3;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 195px;
+    max-height: 195px;
+}
+
+.gd_ruong {
+    border: 1px solid #A9E2F3;
+    background-color: #A9E2F3;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 75px;
+}
+.gd_get {
+    border: 1px solid #F6CEE3;
+    background-color: #F6CEE3;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gd_ {
+    border: 1px solid #2E9AFE;
+    background-color: #A9E2F3;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gd_not {
+    border: 1px solid #A9E2F3;
+    background-color: #A9E2F3;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 75px;
+}
+.gd_con {
+    border: 1px solid #bfe8fd;
+    background-color: #A9E2F3;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gd_new {
+    border: 1px solid #bce8f1;
+    background-color: #EAF6FC;
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 5px;
+    height: 115px;
+}
+.gd_khung_1 {
+    background: url(https://i.imgur.com/DgM1FXi.png);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_2 {
+    background: url(http://werfamily.tk/images/KhungNV/2.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_3 {
+    background: url(http://werfamily.tk/images/KhungNV/3.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_4 {
+    background: url(http://werfamily.tk/images/KhungNV/4.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_5 {
+    background: url(http://werfamily.tk/images/KhungNV/5.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_6 {
+    background: url(http://werfamily.tk/images/KhungNV/6.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_7 {
+    background: url(http://werfamily.tk/images/KhungNV/7.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_8 {
+    background: url(http://werfamily.tk/images/KhungNV/8.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_9 {
+    background: url(http://werfamily.tk/images/KhungNV/9.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_10 {
+    background: url(http://werfamily.tk/images/KhungNV/10.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_11 {
+    background: url(http://werfamily.tk/images/KhungNV/11.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_12 {
+    background: url(http://werfamily.tk/images/KhungNV/12.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_13 {
+    background: url(http://werfamily.tk/images/KhungNV/13.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_14 {
+    background: url(http://werfamily.tk/images/KhungNV/14.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_15 {
+    background: url(http://werfamily.tk/images/KhungNV/15.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_16 {
+    background: url(http://werfamily.tk/images/KhungNV/16.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_17 {
+    background: url(http://werfamily.tk/images/KhungNV/17.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_18 {
+    background: url(http://werfamily.tk/images/KhungNV/18.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_19 {
+    background: url(http://werfamily.tk/images/KhungNV/19.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+
+.gd_khung_20 {
+    background: url(http://werfamily.tk/images/KhungNV/20.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_21 {
+    background: url(http://werfamily.tk/images/KhungNV/21.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_22 {
+    background: url(http://werfamily.tk/images/KhungNV/22.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_23 {
+    background: url(http://werfamily.tk/images/KhungNV/23.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_24 {
+    background: url(http://werfamily.tk/images/KhungNV/24.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_25 {
+    background: url(http://werfamily.tk/images/KhungNV/25.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_26 {
+    background: url(http://werfamily.tk/images/KhungNV/26.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_27 {
+    background: url(http://werfamily.tk/images/KhungNV/27.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_30 {
+    background: url(http://werfamily.tk/images/KhungNV/30.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_31 {
+    background: url(http://werfamily.tk/images/KhungNV/31.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_32 {
+    background: url(http://werfamily.tk/images/KhungNV/32.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_33 {
+    background: url(http://werfamily.tk/images/KhungNV/33.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_34 {
+    background: url(http://werfamily.tk/images/KhungNV/34.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+.gd_khung_35 {
+    background: url(http://werfamily.tk/images/KhungNV/35.gif);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: ;
+    background-repeat: no-repeat;
+}
+
+.pmenu_gd {
+    background-color: #EAF6FC;
+    border-radius: 5px;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+    margin: 3px 0;
+    padding: 1px;
+    height: 120px;
+}
+.pmenu1 {
+    background-color: #EAF6FC;
+    border-radius: 5px;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+    margin: 3px 0;
+    padding: 1px;
+}
+.ducnghia_trai {
+    position: relative;
+    display: inline-block;
+}
+
+.ducnghia_trai .ducnghia_trai_hien {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+}
+
+.ducnghia_trai .ducnghia_trai_hien::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+.ducnghia_trai:hover .ducnghia_trai_hien {
+    visibility: visible;
+}
+
+.ducnghia_ {
+    position: relative;
+    display: inline-block;
+}
+
+.ducnghia_ .ducnghia_hien {
+    visibility: hidden;
+    width: 120px;
+    background-color: #FFF;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.ducnghia_:hover .ducnghia_hien {
+        visibility: visible;
+
+
+
+
+}
+
+
+.ducnghia_ngang {
+            position: relative;
+
+    display: inline-block;
+
+}
+
+.ducnghia_ngang .ducnghia_ngang_hien {
+visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 110%;
+}
+
+.ducnghia_ngang .ducnghia_ngang_hien::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 10px;
+        border-style: solid;
+    border-color: transparent black transparent transparent;
+
+}
+.ducnghia_ngang:hover .ducnghia_ngang_hien {
+        visibility: visible;
+
+}
+
+.tooltip {
+        position: relative;
+
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+h2 { margin: 5px 0 0px;
+    font-size: 22px;
+    color: #23191d;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 0 #813316; }

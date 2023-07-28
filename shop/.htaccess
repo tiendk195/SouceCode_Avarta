@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+RewriteRule .* - [F]
+
+RewriteRule ^quayso-xu.html$ xu.php [L]
+RewriteRule ^quayso-luong.html$ luong.php [L]
+RewriteRule ^quayso-luongkhoa.html$ luongkhoa.php [L]
+RewriteRule ^quayso-free.html$ free.php [L]
+
+RewriteRule ^vet.html$ bienhinhvet.php [L]
+RewriteRule ^kirby.html$ bienhinhkirby.php [L]

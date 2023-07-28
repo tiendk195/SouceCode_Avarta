@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:/panel
+Allow: /
+sitemap: https://lethinh2003.xyz/sitemap/sitemap.xml
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/6119003.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove

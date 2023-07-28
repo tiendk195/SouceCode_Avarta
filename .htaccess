@@ -1,0 +1,134 @@
+<IfModule LiteSpeed>
+CacheLookup public on
+</IfModule>
+#Options -Indexes
+ErrorDocument 404 /?err
+ErrorDocument 402 /?err
+ErrorDocument 403 /?err
+ErrorDocument 404 /?err
+ErrorDocument 500 /?err
+DirectoryIndex index.php
+
+AddType application/x-httpd-php-source .phtml .php3 .php4 .php5 .php6 .phps .cgi .pl .asp .aspx .shtml .shtm .fcgi .fpl .jsp .py
+RewriteEngine On
+#RewriteRule .* - [F]
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteCond %{HTTP:range} !(^bytes=[^,]+(,[^,]+){0,4}$|^$)
+RewriteRule ^/images/shop/.png$ ducnghia/0.png [L]
+RewriteRule ^images/shop/([0-9]*).png$ img_shop.php?u=$1 [L]
+RewriteRule ^ducnghiavh/([0-9]*)$ khuvuc.php?u=$1 [L]
+RewriteRule ^ducnghiavh/([0-9]*).png$ khuvuc.php?u=$1 [L]
+
+#RewriteRule .* - [F]
+RewriteRule ^p([0-9]*).html$ ?page=$1
+RewriteRule ^forums/(.*)-([0-9]+).html$ forum/index.php?act=nt&id=$2 [L]
+RewriteRule ^forum-thears-topic-xem/([0-9]+).html$ forum/index.php?id=$1 [L]
+RewriteRule ^upload/(.*)-([0-9]+).html$ forum/index.php?act=addfile&id=$2 [L]
+RewriteRule ^import/(.*)-([0-9]+).html$ forum/index.php?act=import&id=$2 [L]
+
+#Rewrite forum
+RewriteRule ^forum/index.php?id=([0-9]+)$ forum/0$1 [L]
+RewriteRule ^forum/([0-9]*).html$ forum/index.php?id=$1 [L]
+RewriteRule ^(.*)/([0-9]+)-xem([0-9]+).html$ forum/index.php?id=$2&trang=$3 [L]
+RewriteRule ^forums/([0-9]+).html$ forum/index.php?id=$1 [L]
+RewriteRule ^(.*)/([0-9]+)-p([0-9]+).html$ forum/index.php?id=$2&page=$3 [L]
+RewriteRule ^forum/thich-([0-9]+)-([0-9]+)-([0-9]+).html$ forum/index.php?id=$1&thanks=$2&user=$3&start=0&thank#thanksyou [L]
+RewriteRule ^forum/([0-9]+)-delete.html$ forum/index.php?act=deltema&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-rename.html$ forum/index.php?act=ren&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-tag.html$ forum/index.php?act=tag&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-trich.html$ forum/index.php?act=say&id=$1&start=0&cyt [L]
+RewriteRule ^forum/([0-9]+)-binhluan.html$ forum/index.php?act=say&id=$1&start=0 [L]
+RewriteRule ^forum/([0-9]+)-gim.html$ forum/index.php?act=vip&id=$1&vip [L]
+RewriteRule ^forum/([0-9]+)-nogim.html$ forum/index.php?act=vip&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-download.html$ forum/index.php?act=file&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-edit.html$ forum/index.php?act=editpost&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-del.html$ forum/index.php?act=editpost&do=del&id=$1 [L]
+RewriteRule ^forum/([0-9]+)-page=([0-9]+).html$ forum/index.php?id=$1&page=$2 [L]
+RewriteRule ^forum/([0-9]+)-page=([0-9]+)$ forum/index.php?id=$1&page=$2 [L]
+
+#Rewrite tìm kiếm
+RewriteRule ^search/(.*)$ forum/search.php?t=1&search=$1 [L]
+RewriteRule ^search/(.*)&page=([0-9]+)$ forum/search.php?t=1&search=$1&page=$2 [L]
+RewriteRule ^search/(.*)&trang([0-9]+).html$ forum/search.php?t=1&search=$1&page=$2 [L]
+
+#Rewrite mail
+RewriteRule ^mail/([0-9]*)$ mail/index.php?act=write&id=$1 [L]
+RewriteRule ^mail/new.html$ mail/index.php?act=new [L]
+RewriteRule ^mail/thu-den.html$ mail/index.php?act=input [L]
+RewriteRule ^mail/thu-di.html$ mail/index.php?act=output [L]
+RewriteRule ^mail/([0-9]*)-([0-9]*+).html$ mail/index.php?act=write&id=$1&page=$2 [L]
+
+#Rewrite me
+RewriteRule ^me/(.*)-([0-9]+).html$ me/blog.php?pid=$2 [L]
+
+#Rewrite users
+RewriteRule ^member/([0-9]*).html$ users/profile.php?user=$1 [L]
+RewriteRule ^member/edit-([0-9]*).html$ users/profile.php?act=edit&user=$1 [L]
+RewriteRule ^member/upavatar-([0-9]*).html$ users/profile.php?act=images&mod=avatar&user=$1 [L]
+RewriteRule ^member/chuki.html$ users/chuki.php [L]
+RewriteRule ^users/ketban-([0-9]*).html$ users/profile.php?act=friends&do=add&id=$1 [L]
+RewriteRule ^users/(.*).html$ users/profile.php?act=office [L]
+RewriteRule ^users/upavatar-([0-9]*).html$ users/profile.php?act=images&mod=avatar&user=$1 [L]
+RewriteRule ^thongbao.html$ users/thongbao.php [L]
+RewriteRule ^baned/$ /users/baned.php [L]
+RewriteRule ^users/topic-cua-ban/([0-9]*).html$ users/profile.php?act=activity&mod=topic&user=$1 [L]
+
+#Rewrite dangnhap dang ki index
+RewriteRule ^mod/bxh.html$ mod/bxh.php [L]
+
+RewriteRule ^ruong/thungrac.html$ ruong/thungrac.php [L]
+RewriteRule ^quayso/xu.html$ dangnhap.php [L]
+
+RewriteRule ^dangnhap.html$ dangnhap.php [L]
+RewriteRule ^login.php$ dangnhap.php [L]
+
+RewriteRule ^dangki.html$ dangki.php [L]
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^home.html$ index.php [L]
+RewriteRule ^lienhe.html$ lienhe.php [L]
+RewriteRule ^ngoaio$ khugiaitri/ngoaio.php [L]
+RewriteRule ^shoptrum.html$ shop/shoptrum.php [L]
+#Rewrite vesion
+RewriteRule ^wap.html$ v.php?mod=wap [L]
+RewriteRule ^web.html$ v.php?mod=web [L]
+RewriteRule ^shop.html$ shop/cuahang.php [L]
+#Rewrite smileys
+RewriteRule ^bieucam.html$ pages/faq.php?act=smileys [L]
+
+#Rewrite jquery
+RewriteRule ^~chatbox$ forum/chat.php [L]
+RewriteRule ^load.html$ pages/jquery.php [L]
+#Rewrite ott
+RewriteRule ^ott/girl-([0-9]+).html$ ott/index.php?act=ott&girl=$1 [L]
+
+#Rewrite avatar
+RewriteRule ^avatar/([0-9]*).png$ avatar.php?u=$1 [L]
+RewriteRule ^item/([0-9]*).png$ img_shop.php?u=$1 [L]
+RewriteRule ^img_item/([0-9]*).png$ img_kho.php?u=$1 [L]
+RewriteRule ^avatar/toc.html$ avatar/toc.php [L]
+RewriteRule ^avatar/quan.html$ avatar/quan.php [L]
+RewriteRule ^avatar/ao.html$ avatar/ao.php [L]
+RewriteRule ^avatar/docamtay.html$ avatar/docamtay.php [L]
+RewriteRule ^avatar/canh.html$ avatar/canh.php [L]
+RewriteRule ^avatar/non.html$ avatar/non.php [L]
+RewriteRule ^avatar/mat.html$ avatar/mat.php [L]
+RewriteRule ^avatar/matna.html$ avatar/matna.php [L]
+RewriteRule ^avatar/thucung.html$ avatar/thucung.php [L]
+RewriteRule ^avatar/haoquang.html$ avatar/haoquang.php [L]
+#nha o
+RewriteRule sanbay/house/edit/([0-9]*)_([0-9]*).html$ sanbay/house/edit/?ngang=$1&doc=$2 [L]
+RewriteRule sanbay/house/edit/([0-9]*)_([0-9]*)_([0-9]*).html$ sanbay/house/edit/?ngang=$1&doc=$2&dichuyen=$3 [L]
+RewriteRule sanbay/house/edit/([0-9]*)_([0-9]*)_([0-9]*)_huy.html$ sanbay/house/edit/?ngang=$1&doc=$2&dohuy=$3 [L]
+RewriteRule sanbay/house/edit/movie_([0-9]*)_([0-9]*)_([0-9]*)_([0-9]*)_([0-9]*).html$ sanbay/house/edit/?ngang=$1&doc=$2&dichuyen=$3&ngang_goc=$4&doc_goc=$5&chuyen [L]
+RewriteRule sanbay/house/shop/chon_([0-9]*)_([0-9]*)_([0-9]*).html$ sanbay/house/shop/?ngang=$1&doc=$2&iddo=$3 [L]
+RewriteRule sanbay/house/shop/vpid_([0-9]*).html$ sanbay/house/shop/?vatpham=$1 [L]
+RewriteRule sanbay/house/shop/tt_([0-9]*).html$ sanbay/house/shop/?name=$1 [L]
+RewriteRule sanbay/house/shop/tt_([0-9]*)_p([0-9]*).html$ sanbay/house/shop/?name=$1&page=$2 [L]
+RewriteRule ^reg/([0-9]*)$ reg.php?star=$1 [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

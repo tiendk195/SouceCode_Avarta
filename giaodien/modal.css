@@ -1,0 +1,138 @@
+
+.container{
+	margin:0 auto;
+	display: block
+	width:500px;
+	max-width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height:auto;
+	text-align:center;
+}
+/* Bordered form */
+
+/* Full-width inputfields */
+
+
+/* Set a style for all buttons */
+butttton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+butttton:hover {
+    opacity: 0.8;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+input[type="text"], input[type="password"] {
+    background: #FDFDFD;
+    color: #000;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    padding: 1px 8px;
+}
+input[type="button" i] {
+    border-radius: 3px;
+    background-color: #fff;
+    color: #3883CC;
+    text-align: center;
+    border: 1px solid #3883CC;
+    font-size: 11px;
+}
+.hoanganh_danhmuc_menu {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    color: #6a6a6a;
+    vertical-align: center;
+    font-size: 12px;
+    padding: 4px 6px;
+}
+.hoanganh_menuclick {
+    display: none;
+    height: 100%;
+    width: auto;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 0px;
+}
+.nenshop {
+    background: url(https://i.imgur.com/lZtvEaC.png) repeat-x;
+    height: 123px;
+}
+.fmod {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(25, 103, 245);
+}
+.hu12 {
+    -webkit-animation: hue 1s linear infinite;
+    color: #f00;
+    text-shadow: 0px 0px 1px #FFFF00 !important;
+
